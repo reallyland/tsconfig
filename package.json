@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "TypeScript configuration file for The Really Project",
   "keywords": [
+    "browser",
     "config",
     "node",
     "really",
