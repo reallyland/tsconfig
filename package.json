@@ -1,0 +1,39 @@
+{
+  "name": "@reallyland/tsconfig",
+  "version": "0.0.0",
+  "description": "TypeScript configuration file for The Really Project",
+  "keywords": [
+    "config",
+    "node",
+    "really",
+    "reallyland",
+    "tsconfig",
+    "typescript"
+  ],
+  "homepage": "https://github.com/reallyland/tsconfig",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:reallyland/tsconfig.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Rong Sen Ng (motss)",
+    "email": "wes.ngrongsen@gmail.com",
+    "url": "https://github.com/motss"
+  },
+  "files": [
+    "src/**/tsconfig.json"
+  ],
+  "main": "src/tsconfig.json",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 8.16.0",
+    "npm": ">= 6.4.1",
+    "typescript": ">= 2.9"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
