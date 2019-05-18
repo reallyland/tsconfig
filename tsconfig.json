@@ -17,8 +17,6 @@
     "strict": true,
 
     "lib": [
-      "dom",
-      "dom.iterable",
       "esnext",
       "esnext.array",
       "esnext.asynciterable",
@@ -28,12 +26,7 @@
     "moduleResolution": "node",
     "module": "esnext",
     "target": "esnext",
-    "rootDir": "src",
-    "outDir": "dist",
     "declaration": true,
-    "declarationMap": true,
-    "declarationDir": "dist"
-  },
-  "include": ["src/**/*.ts"],
-  "exclude": ["dist"]
+    "declarationMap": true
+  }
 }

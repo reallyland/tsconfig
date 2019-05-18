@@ -50,13 +50,28 @@ $ npm install --save @reallyland/tsconfig
 
 ### Usage
 
+Note that the following fields are required after extending the sharable `tsconfig`:
+
+* `compilerOptions.rootDir`
+* `compilerOptions.outDir`
+* `compilerOptions.declarationDir`
+* `include`
+* `exclude`
+
 #### Node.js
 
 **tsconfig.json**
 
 ```json
 {
-  "extends": "@reallyland/tsconfig"
+  "extends": "@reallyland/tsconfig",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "declarationDir": "dist"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["dist"]
 }
 ```
 
@@ -65,6 +80,11 @@ $ npm install --save @reallyland/tsconfig
 ```json
 {
   "extends": "@reallyland/tsconfig",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "declarationDir": "dist"
+  },
   "include": ["src/*.ts"],
   "exclude": ["src/test/**/*.ts", "src/demo/**/*.ts"]
 }
@@ -78,7 +98,14 @@ Main difference is that there are `dom` and `dom.iterable` are added in the `lib
 
 ```json
 {
-  "extends": "@reallyland/tsconfig/browser/tsconfig.json"
+  "extends": "@reallyland/tsconfig/browser",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "declarationDir": "dist"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["dist"]
 }
 ```
 
@@ -125,10 +152,10 @@ Main difference is that there are `dom` and `dom.iterable` are added in the `lib
 
 [version-url]: https://www.npmjs.com/package/@reallyland/tsconfig
 [node-version-url]: https://nodejs.org/en/download
-[mit-license-url]: https://github.com/motss/@reallyland/tsconfig/blob/master/LICENSE
+[mit-license-url]: https://github.com/reallyland/tsconfig/blob/master/LICENSE
 
 [downloads-url]: https://www.npmtrends.com/@reallyland/tsconfig
 [packagephobia-url]: https://packagephobia.now.sh/result?p=@reallyland/tsconfig
 [bundlephobia-url]: https://bundlephobia.com/result?p=@reallyland/tsconfig
 
-[coc-url]: https://github.com/motss/@reallyland/tsconfig/blob/master/CODE-OF-CONDUCT.md
+[coc-url]: https://github.com/reallyland/tsconfig/blob/master/CODE-OF-CONDUCT.md
