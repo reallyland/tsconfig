@@ -17,15 +17,16 @@
     "strict": true,
 
     "lib": [
-      "esnext",
       "esnext.array",
       "esnext.asynciterable",
+      "esnext.bigint",
       "esnext.intl",
-      "esnext.symbol"
+      "esnext.symbol",
+      "esnext"
     ],
     "moduleResolution": "node",
     "module": "esnext",
-    "target": "esnext",
+    "target": "es2020",
     "declaration": true,
     "declarationMap": true
   }
