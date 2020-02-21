@@ -1,6 +1,6 @@
 {
   "name": "@reallyland/tsconfig",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "TypeScript configuration file for The Really Project",
   "keywords": [
     "browser",
