@@ -35,9 +35,9 @@
 
 ## Pre-requisites
 
-- [TypeScript] >= 2.9
-- [Optional for browser] [Node.js][nodejs-url] >= 8.16.0
-- [Optional for browser] [NPM][npm-url] >= 6.4.1 ([NPM][npm-url] comes with [Node.js][nodejs-url] so there is no need to install separately.)
+- [TypeScript] >= 3.8.2
+- [Optional for browser] [Node.js][nodejs-url] >= 10.18.1
+- [Optional for browser] [NPM][npm-url] >= 6.13.4 ([NPM][npm-url] comes with [Node.js][nodejs-url] so there is no need to install separately.)
 
 ## Setup
 
