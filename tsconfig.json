@@ -9,6 +9,7 @@
     "listEmittedFiles": true,
     "newLine": "LF",
     "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
